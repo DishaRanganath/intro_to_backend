@@ -1,0 +1,1 @@
+export const DB_NAME="intro_to_backend" //not a mandatory file but simplifies the name usage 

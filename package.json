@@ -1,0 +1,31 @@
+{
+  "name": "intro_to_backend",
+  "version": "1.0.0",
+  "description": "first step towards backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node Backend/src/index.js",
+    "dev": "nodemon Backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DishaRanganath/intro_to_backend.git"
+  },
+  "author": "Disha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DishaRanganath/intro_to_backend/issues"
+  },
+  "homepage": "https://github.com/DishaRanganath/intro_to_backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
